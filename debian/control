@@ -1,0 +1,12 @@
+Source: ros-jazzy-dolly-gazebo
+Section: misc
+Priority: optional
+Maintainer: Louise Poubel <burajiru.no.chapulina@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-dolly-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-dolly-follow, ros-jazzy-gazebo-ros-pkgs, ros-jazzy-ros2launch, ros-jazzy-rviz2, ros-jazzy-ros-workspace
+Description: Launch Gazebo simulation with Dolly robot.
